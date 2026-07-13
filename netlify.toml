@@ -1,0 +1,12 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# SPA-ish: serve the dashboard for the root
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200

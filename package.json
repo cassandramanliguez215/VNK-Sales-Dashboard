@@ -1,0 +1,11 @@
+{
+  "name": "vk-group-dashboard-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Netlify Functions backend for the V&K Group sales dashboard",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
